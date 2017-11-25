@@ -1,0 +1,112 @@
+.navbar{
+  margin-bottom:0;
+  border-radius:0;
+  background-color: #bf969d;
+  color: white;
+  padding: 1% 0;
+  font-size: 1.2em;
+  border: 0;
+}
+
+.navbar-brand{
+  float: right;
+  min-height: 55px;
+  padding: 1px 5px;
+}
+ .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
+ .navbar-inverse .navbar-nav .active a:hover{
+  color: white;
+  background-color: darkgrey;
+
+}
+
+ .navbar-inverse .navbar-nav li a{
+  color: #D5D5D5;
+ }
+
+ .carousel-caption{
+  top: 60%;
+  transform: translateY(-60%);
+  text-transform: uppercase;
+}
+/*
+.btn{
+  font-size: 18px;
+  color:  #583f59;
+  padding: 12px 22px;
+  background: lightgrey;
+  border: 2px solid white;
+}
+*/
+.bordered-picture{
+  border-color: #583f59;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+
+
+.container{
+  margin: 4% auto;
+}
+
+#icon{
+max-width: 200px;
+margin: 1% auto;
+}
+
+.fa{
+  padding: 15px;
+  font-size: 40px;
+  color: white;
+}
+.fa:hover{
+  color: lightgrey;
+  text-decoration: none;
+}
+@media (min-width: 768px)
+.navbar {
+    border-radius: 0px; 
+  }
+
+
+
+@media(max-width:900px){
+  .fa{
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+@media (max-width:600px) {
+  .carousel-caption{
+    display: none;
+  }
+}
+
+#icon{
+  max-width: 150px;
+
+}
+
+footer{
+  width:100%;
+  background-color: #bf969d;
+  padding: 5%;
+  color: white;
+}
+
+
+h2{
+  font-size: 1.7em;
+}
+
+.projects{
+  background: darkgrey;
+  padding-bottom: 30px;
+}
+
+
+
+
